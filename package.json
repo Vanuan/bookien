@@ -1,0 +1,15 @@
+{
+    "name": "bookien",
+    "description": "Book Reading Application",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "express": "3.x",
+        "mongodb": "",
+        "mocha": "",
+        "pow-mongodb-fixtures": "https://github.com/bernardofd/pow-mongodb-fixtures/tarball/master",
+        "frisby": "",
+        "jasmine-node": ""
+    }
+}
+
