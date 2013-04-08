@@ -9,7 +9,13 @@
         "mocha": "",
         "pow-mongodb-fixtures": "https://github.com/bernardofd/pow-mongodb-fixtures/tarball/master",
         "frisby": "",
-        "jasmine-node": ""
+        "jasmine-node": "",
+        "forEachAsync": "",
+        "jake": ""
+    },
+    "scripts": {
+        "test": "./node_modules/.bin/jake",
+        "start": "node src/app.js"
     }
 }
 
