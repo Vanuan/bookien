@@ -1,0 +1,9 @@
+language: node_js
+node_js:
+  - 0.8
+services: mongodb
+before_script:
+  - node src/app.js &
+  - sleep 1
+after_script:
+  - killall node
