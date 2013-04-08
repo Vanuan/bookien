@@ -4,7 +4,7 @@ var routes = require('./routes');
 
 function main() {
     var app = express();
-    app.use(require('connect').bodyParser());
+    app.use(express.bodyParser());
 
     routes.setup(app);
 
